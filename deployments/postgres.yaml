@@ -1,0 +1,3 @@
+auth.username: "user"
+auth.password: "postgres"
+auth.database: "postgres"

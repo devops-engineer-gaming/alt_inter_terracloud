@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "altenar-deliseev-0",
+  "private_key_id": "57dedcc78b05b5cf6a89505b02727ef30fd7b8b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzOpmPa+eZxWKE\nZfywvalahjldjr79r+MiCBEYnG7Bp+RCErdJ2aqG4lvCZHEnRAOUcfgmEsgX830y\nFPgBR23KHjI+/Q+CbVW9AUsCdj1cO3rYTfioHb9XsYF0+ff/XKBjicf0PyNSqIf/\nBK6HX0rZAHAa8k+u1gzO3/rWZhGcnax4Qw45YtfST4sYEAujeJY7mAO2wGZDTaau\nB08C5D/CAi7J0kq7hiiyUZmb3LNYfFtJfLLuP/CfGGAHXf8xx7d7eAtopBwMgxRE\nVoxodfJl9yKB3vl7muAJPJz6G4u3WdoYhjsS0TryY+iLTWaWnLg8eb8VPG0MLRvp\nOvO/GzSxAgMBAAECggEAB4UbKdEbddB6FneH/2tpxmZQ1FvXqCG/3C7t9rQjkoUG\nlv4dih/zn3ayZmjb9YuNQeZ5RLGviw+4jkgicr1KPjt/nLR1+OE5AnXiLY+D+hF1\n0UsONpGO9HE6bwvI68I5aYu/o8AdbYusLxdFcmEdbRbvXTYTAVEyVuC/b8z3CrTh\n2Kp2EiI6M+a/jrRaQPxeFzkvl/F0cTe+B/E3WmvB+TYf4JvbU8S0bo940CMgW0To\nkdtM8HVGo223/qNDVfnQRt37tigtrxqJtedhbuL04uZC4A/uRdobnD5XW32jzMpi\noK0f+AwZxSPyewntSq7MfrWUSFy5AoWCfHdV5ojVJQKBgQDrNa6PdVH1HKCfk3Gm\nOPgDIJ7HNkFJJpVi6e3q/Cu9paJudEicBI8eGLm7iogE9RigWT7s3VwjKNBI04Qm\n9wH/qtIuwIIDR0m3GXy/hXkoBS2/tOtGAbFYWVM1GWaajhLcr1dl22YACpvNDD74\nvo78mvSvwAocJ2dPiuNbODArXQKBgQDDEi+xbSc4rMv+fc697AnpkB0G3VvRArpW\nFuNXoZq/4pjEMwXQLBqz/iw7q0DCLnwFWMHmlIMoDU1VqY0WMDEPtRD3J10dAOFP\nKU5gPPR6ssshFsBTWRsV7v23Hvee5CI/HCqPYDyI1JU9mGNUBZ4LLwApSins+avw\ncmAIoXntZQKBgHMARUAZIaBRhetf4OJf2ktVKKzIRzVn6wR40f3hm9VW5ctRiarW\nw874Ud9zRTv/RjIoUI7pUEJUkzn4SRXwEYca0zdOooLN2SnwCUFvFiTOG2cvIxWQ\ngFBtJDTDHZqVun0yMe44Tm/YwAKKaUOfkDPL47UGlSrczTNj+fPAzjR1AoGBAJQY\ni4LdRqidb2XvZ3UC7WeX1KGwjpN4ybSwPbr64ryJMMfLoL8xrLg34KcQVeLWXavF\nfbgrygMvTiYZyhYtUiIFqjKpfOSXFXb++hTQUh+Q++xMFIlyncCiJ5bN+Np1gpZ9\nMMaXHn4XPpJ7zfUtKpZ9AVdXicryphmvC7+hsCqNAoGASAw41uD4kJwPdwfUx2Da\np8WWyq9cu4I4yePGxou+xgBsssHcJvj9t/b5Ltc945o/DoJUQhCaEBMn+l1v6HhN\nzTuXHLt4I2ee+RhnW0ndC36CFneOEY4WrVw4q+Lwz+BW5TFE0joCZWPOThQoiRdh\n3vwxf8cCwGvSgkCo74yeUd4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terra-user@altenar-deliseev-0.iam.gserviceaccount.com",
+  "client_id": "104857351306578393173",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terra-user%40altenar-deliseev-0.iam.gserviceaccount.com"
+}
