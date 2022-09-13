@@ -1,4 +1,4 @@
-containers:
+container:
   image: gcr.io/altenar-deliseev-0/frontend:latest
 
 spec:

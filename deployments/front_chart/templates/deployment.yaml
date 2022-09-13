@@ -22,8 +22,6 @@ spec:
         env:
         - name: NGINX_PORT
           value: "80"
-        - name: NGINX_HOST
-          value: "todo.com"
 ---
 apiVersion: v1
 kind: Service
@@ -38,4 +36,4 @@ spec:
     targetPort: 80
   selector:
     app: frontend
-  type: LoadBalancer
+  type: NodePort
