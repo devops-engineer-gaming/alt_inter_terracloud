@@ -5,7 +5,7 @@ metadata:
   labels:
     app: frontend
 spec:
-  replicas: 1
+  replicas: {{ .Values.spec.replicas }}
   selector:
     matchLabels:
       app: frontend
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/altenar-deliseev-0/frontend:latest
+        image: {{ .Values.container.image }}
         ports:
         - containerPort: 80
         env:

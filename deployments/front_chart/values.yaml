@@ -1,0 +1,5 @@
+containers:
+  image: gcr.io/altenar-deliseev-0/frontend:latest
+
+spec:
+  replicas: 1
