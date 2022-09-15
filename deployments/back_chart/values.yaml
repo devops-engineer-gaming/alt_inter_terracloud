@@ -3,3 +3,9 @@ container:
 
 spec:
   replicas: 1
+
+env:
+  DB_HOST: database-postgresql
+  DB_USER: postgress
+  DB_NAME: postgress
+  DB_PASS: postgress
