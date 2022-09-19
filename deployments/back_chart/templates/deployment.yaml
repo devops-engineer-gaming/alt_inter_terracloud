@@ -18,14 +18,17 @@ spec:
       - name: backend
         image: {{ .Values.container.image }}
         ports:
-        - containerPort: 80
+        - containerPort: 8000
         env:
         - name: DB_HOST
           value: {{ .Values.env.DB_HOST }}
         - name: DB_USER
           value: {{ .Values.env.DB_USER }}
         - name: DB_PASS
-          value: {{ .Values.env.DB_PASS }}
+          valueFrom:
+            secretKeyRef:
+              name: database-postgresql
+              key: postgres-password
         - name: DB_NAME
           value: {{ .Values.env.DB_NAME }}
 ---
@@ -39,7 +42,7 @@ spec:
   ports:
   - protocol: TCP
     port: 8000
-    targetPort: 80
+    targetPort: 8000
   selector:
     app: backend
   type: ClusterIP
