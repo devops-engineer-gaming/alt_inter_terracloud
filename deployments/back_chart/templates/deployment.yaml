@@ -25,10 +25,7 @@ spec:
         - name: DB_USER
           value: {{ .Values.env.DB_USER }}
         - name: DB_PASS
-          valueFrom:
-            secretKeyRef:
-              name: database-postgresql
-              key: postgres-password
+          value: {{ quote .Values.env.DB_PASS }}
         - name: DB_NAME
           value: {{ .Values.env.DB_NAME }}
 ---
