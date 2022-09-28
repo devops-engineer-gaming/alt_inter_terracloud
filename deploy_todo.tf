@@ -36,3 +36,4 @@ resource "google_container_cluster" "todo-app-cluster" {
     update = "40m"
   }
 }
+
