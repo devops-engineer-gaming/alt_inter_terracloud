@@ -4,5 +4,5 @@ metadata:
   name: managed-cert
 spec:
   domains:
-    - www.pshenka.space
     - pshenka.space
+    - www.pshenka.space
